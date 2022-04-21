@@ -22,6 +22,10 @@ input, textarea {
   font-family: 'Helvetica Neue';
 }
 
+.loader-hidden {
+  display: none;
+}
+
 .loader-active {
   display: block;
   position: absolute;
@@ -30,8 +34,8 @@ input, textarea {
   margin: auto;
   top: 0;
   bottom: 0;
-  width: 50%;
-  height: 50%;
+  width: 50px;
+  height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
 }
