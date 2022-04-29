@@ -14,7 +14,10 @@
     width: 100%;
     height: auto;
     bottom: 0;
-    transform: rotateZ(30deg) !important;
+    // transform: rotateZ(30deg) !important;
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .solid-logo {
@@ -26,12 +29,22 @@
     margin: auto;
     width: 100%;
     opacity: 0;
-    transform: rotateZ(30deg) !important;
     z-index: 1;
+
+    &:hover {
+      transform: rotateZ(30deg) !important;
+    }
   }
 }
 
 .svg-container {
   stroke: #ffd700;
   stroke-width: 10;
+}
+
+.cls-1 {
+  fill:none;
+  stroke:gold;
+  stroke-miterlimit:10;
+  stroke-width:8px;
 }
