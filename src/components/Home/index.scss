@@ -9,12 +9,12 @@
     top: 50%;
     transform:  translateY(-50%);
     width: 40%;
-    min-height: 90%;
+    // min-height: 90%;
   }
 
   h1 {
     color: #fff;
-    font-size: 56px;
+    font-size: 70px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -46,7 +46,7 @@
     img {
       margin-left: 20px;
       opacity: 0;
-      width: 32px;
+      width: 45px;
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
@@ -58,7 +58,7 @@ h2 {
   color: #8d8d8d;
   margin-top: 20px;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 15px;
   font-family: sans-serif;
   letter-spacing: 3px;
   animation: fadeIn 1s 1.8s backwards;
@@ -66,20 +66,21 @@ h2 {
 
 .flat-button {
   color: #ffd700;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 4px;
   font-family: sans-serif;
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 15px 25px;
   border: 1px solid #ffd700;
   margin-top: 25px;
   float: left;
   animation: fadeInAnimation 1s 1.8s backwards;
   white-space: nowrap;
-
+  
   &:hover {
     background: #ffd700;
     color: #333;
+    font-weight: bold;
   }
 }

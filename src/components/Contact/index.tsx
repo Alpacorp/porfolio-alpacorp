@@ -100,12 +100,12 @@ const Contact = () => {
         </div>
         <div className="map-wrap">
           <MapContainer
-            center={[4.615631, -74.174641]}
+            center={[4.6640584, -74.0558897]}
             zoom={13}
             // scrollWheelZoom={false}
           >
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[4.615631, -74.174641]}>
+            <Marker position={[4.6640584, -74.0558897]}>
               <Popup>
                 A pretty CSS3 popup. <br /> Easily customizable.
               </Popup>
