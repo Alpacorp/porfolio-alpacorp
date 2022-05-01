@@ -90,10 +90,13 @@ textarea {
   animation-fill-mode: forwards;
 
   span {
-    font-size: 16px;
-    display: block;
-    padding-top: 20px;
-    color: #ffd700;
+    a {
+      font-size: 16px;
+      display: block;
+      padding-top: 20px;
+      color: #ffd700;
+      text-decoration: none;
+    }
   }
 }
 
