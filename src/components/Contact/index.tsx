@@ -47,12 +47,7 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-            molestiae totam? Aperiam doloribus est, sapiente earum magnam
-            recusandae repudiandae reprehenderit explicabo blanditiis
-            praesentium debitis dicta cum voluptatem voluptatum, ducimus nemo.
-          </p>
+          <p>I will be very attentive to assist you.</p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
@@ -96,7 +91,11 @@ const Contact = () => {
           <br />
           Bogotá
           <br />
-          <span>alejandro.palacios88@gmail.com</span>
+          <span>
+            <a href="mailto:alejandro.palacios88@gmail.com" target="blank">
+              alejandro.palacios88@gmail.com
+            </a>
+          </span>
         </div>
         <div className="map-wrap">
           <MapContainer
